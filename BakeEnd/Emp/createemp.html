@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="../../plugins/dist/js/bakendHeader.js">
+    </script>
+    <script>
+        document.write(headWriter());
+    </script>
+    <title>BakeEnd</title>
+</head>
+
+
+<body class="skin-blue sidebar-mini">
+    <div class="wrapper">
+
+        <script>
+            document.write(headUl())
+        </script>
+
+
+        <!--################################ Content Wrapper. Contains page content -->
+        <!-- Content Wrapper. Contains page content -->
+        <div class="content-wrapper">
+            <!-- Main content -->
+            <section class="content">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="box">
+                            <div class="box-header">
+                                <h3 class="box-title"> اضافه موظف </h3>
+                            </div>
+                            <!-- /.box-header -->
+                            <div class="box-body">
+
+                                <form role="form">
+                                    <div class="box-body">
+                                        <div class="form-group">
+                                            <label for="P_Name">اسم الموظف</label>
+                                            <input type="text" class="form-control" id="P_Name" placeholder="اسم الموظف  " required>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="P_National_ID"> الرقم القومي </label>
+                                            <input type="number" class="form-control" id="P_National_ID" placeholder="1263255562225 " required>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label>القسم</label>
+                                            <select class="form-control">
+                                                 <option value="0" disabled selected>اختر القسم </option>
+                                                  <option value="1">وحده النظم</option>
+                                                  <option value="2">قسم الماليه</option>
+                                                </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <label>الدرجه الوظيفيه</label>
+                                            <select class="form-control">
+                                                 <option value="0" disabled selected>اختر الدرجه </option>
+                                                  <option value="1">مدير</option>
+                                                  <option value="2">موظف</option>
+                                                </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="Emp_Salary"> الراتب </label>
+                                            <input type="number" class="form-control" id="Emp_Salary" placeholder="1000 " required>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="P_Phone"> الهاتف </label>
+                                            <input type="number" class="form-control" id="P_Phone" placeholder="1263255562225 " required>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="P_Adress">  العنوان </label>
+                                            <input type="text" class="form-control" id="P_Adress" placeholder="banha " required>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="p_Email"> الايميل </label>
+                                            <input type="email" class="form-control" id="p_Email" placeholder="e@m.com ">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="P_BirthDate"> تاريخ الميلاد</label>
+                                            <input type="date" class="form-control" id="P_BirthDate" placeholder="1/1/2000 " required>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="P_StartDate">  تاريخ التوظيف </label>
+                                            <input type="date" class="form-control" id="P_StartDate" placeholder="1/1/2017 " required>
+                                        </div>
+                                        <div class="form-group">
+                                            <label>النوع</label>
+                                            <select class="form-control">
+                                             <option value="0" disabled selected>النوع</option>
+                                              <option value="1">ذكر</option>
+                                              <option value="2">انثي</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <label>الحاله</label>
+                                            <select class="form-control">
+                                                 <option value="0" disabled selected>الحاله </option>
+                                                  <option value="1">متوقف</option>
+                                                  <option value="2">فعال</option>
+                                                </select>
+                                        </div>
+
+
+                                        <div class="form-group">
+                                            <label for="P_Img">صوره الموظف</label>
+                                            <input type="file" id="P_Img">
+
+                                        </div>
+
+
+                                        <!-- /.box -->
+
+
+                                    </div>
+                                    <!-- /.box-body -->
+
+                                    <div class="box-footer">
+                                        <button type="submit" class="btn btn-primary">حفظ</button>
+                                    </div>
+                                </form>
+
+                            </div>
+                            <!-- /.box-body -->
+                        </div>
+                        <!-- /.box -->
+                    </div>
+                    <!-- /.col -->
+                </div>
+                <!-- /.row -->
+            </section>
+            <!-- /.content -->
+        </div>
+        <!-- /.content-wrapper -->
+        <!-- Main Footer -->
+        <script>
+            document.write(footerWriter());
+        </script>
+
+
+</body>
+
+</html>

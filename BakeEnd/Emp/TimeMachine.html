@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="../../plugins/dist/js/bakendHeader.js">
+    </script>
+    <script>
+        document.write(headWriter());
+    </script>
+    <title>BakeEnd</title>
+</head>
+
+<body class="skin-blue sidebar-mini">
+    <div class="wrapper">
+
+        <script>
+            document.write(headUl())
+        </script>
+
+        <!--################################ Content Wrapper. Contains page content -->
+        <!-- Content Wrapper. Contains page content -->
+        <div class="content-wrapper">
+            <!-- Main content -->
+            <section class="content">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="box">
+                            <div class="box-header">
+                                <h3 class="box-title">حضور وانصراف :احمد محمد علي</h3>
+                            </div>
+                            <!-- /.box-header -->
+                            <div class="box-body">
+
+                                <table id="example1" class="table table-bordered table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th>التاريخ </th>
+                                            <th>توقيت الدخول</th>
+                                            <th>توقيت الخروج </th>
+                                            <th>ملاحظات</th>
+                                            <th>الاختيارات</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <script type="text/javascript">
+                                            for (var i = 1; i <= 1000; i++) {
+                                                document.write("<tr>");
+                                                document.write("<td>  " + i + "/1/2019   </td>");
+                                                if (i == 2 || i == 9 || i == 16 || i == 23 || i == 30) {
+                                                    document.write("<td>  غياب   </td>");
+                                                    document.write("<td>غياب</td>");
+                                                    document.write("<td>راحه اسبوعيه  </td>");
+                                                } else {
+                                                    document.write("<td>  09:00 am   </td>");
+                                                    document.write("<td>03:00 pm</td>");
+                                                    document.write("<td> </td>");
+                                                }
+
+                                                document.write('<td> &nbsp &nbsp <a href=absent.html ? id=' + i + '><i class="fas fa-pencil-alt"></i></a></td>');
+                                                document.write("</tr>");
+                                            }
+                                        </script>
+
+                                    </tbody>
+
+                                </table>
+                            </div>
+                            <!-- /.box-body -->
+                        </div>
+                        <!-- /.box -->
+                    </div>
+                    <!-- /.col -->
+                </div>
+                <!-- /.row -->
+            </section>
+            <!-- /.content -->
+        </div>
+        <!-- /.content-wrapper -->
+        <!-- Main Footer -->
+        <script>
+            document.write(footerWriter());
+        </script>
+</body>
+
+</html>

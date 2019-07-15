@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="../../plugins/dist/js/bakendHeader.js">
+    </script>
+    <script>
+        document.write(headWriter());
+    </script>
+    <title>BakeEnd</title>
+</head>
+
+
+<body class="skin-blue sidebar-mini">
+    <div class="wrapper">
+
+        <script>
+            document.write(headUl())
+        </script>
+
+        <!--################################ Content Wrapper. Contains page content -->
+        <!-- Content Wrapper. Contains page content -->
+        <div class="content-wrapper">
+            <!-- Main content -->
+            <section class="content">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="box">
+                            <div class="box-header">
+                                <h3 class="box-title"> اضافه مدرسه </h3>
+                            </div>
+                            <!-- /.box-header -->
+                            <div class="box-body">
+
+                                <form role="form" action="viewschool.html">
+                                    <div class="box-body">
+                                        <div class="form-group">
+                                            <label for="title">اسم المدرسه</label>
+                                            <input type="text" class="form-control" id="title" placeholder="اسم المدرسه  " required>
+                                        </div>
+                                        <div class="form-group">
+                                            <label>اسم النشاط</label>
+                                            <select class="form-control">
+                                                 <option value="0" disabled selected>اختر النشاط</option>
+                                                  <option value="1">سباحه</option>
+                                                  <option value="2"> كارتيه</option>
+                                                </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="title">المستوي</label>
+                                            <input type="text" class="form-control" id="title" placeholder="  المستوي " required>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="title">السعر</label>
+                                            <input type="text" class="form-control" id="title" placeholder="السعر  " required>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="title">بدايه التدريب</label>
+                                            <input type="date" class="form-control" id="title" placeholder="1/1/2018   " required>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="title">انهايه التدريب</label>
+                                            <input type="date" class="form-control" id="title" placeholder=" 1/1/2019  " required>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="title">عدد المدربين </label>
+                                            <input type="number" class="form-control" id="title" placeholder=" اقصي عدد لمدربين  " required>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="title"> عدد المتدربين </label>
+                                            <input type="text" class="form-control" id="title" placeholder="اقصي عدد للمتدربين  " required>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="title">مواعيد التدريب </label>
+                                            <input type="text" class="form-control" id="title" placeholder="الحد \الاتنين\الساعه01:30  " required>
+                                        </div>
+                                        <div class="form-group">
+                                            <label>الحاله</label>
+                                            <select class="form-control">
+                                             <option value="0" disabled selected>الحاله</option>
+                                              <option value="1">فعال</option>
+                                              <option value="2">غير فعال</option>
+                                            </select>
+                                        </div>
+
+
+                                        <!-- /.box -->
+
+
+                                    </div>
+                                    <!-- /.box-body -->
+
+                                    <div class="box-footer">
+                                        <button type="submit" class="btn btn-primary">حفظ</button>
+                                    </div>
+                                </form>
+
+                            </div>
+                            <!-- /.box-body -->
+                        </div>
+                        <!-- /.box -->
+                    </div>
+                    <!-- /.col -->
+                </div>
+                <!-- /.row -->
+            </section>
+            <!-- /.content -->
+        </div>
+        <!-- /.content-wrapper -->
+        <!-- Main Footer -->
+        <script>
+            document.write(footerWriter());
+        </script>
+
+
+</body>
+
+</html>
